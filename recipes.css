@@ -1,0 +1,89 @@
+#main-recipe-page {
+    display: grid;
+}
+
+.page-title {
+    background-color: #a1c89e;
+    color: #373d20;
+    text-align: center;
+}
+
+.item-title {
+    color: #373d20;
+    font-family: 'Shantell Sans', cursive;
+    text-decoration: wavy;
+}
+
+header {
+    color: #1f331d;
+    background-color: #64a460;
+    width: 100%;
+    font-size: 80;
+    text-align: right;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 16px;
+}
+
+.slogan {
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+}
+
+footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #b5d3b3;
+    color: black
+}
+
+img {
+    height: 200px;
+}
+
+nav {
+    border-bottom: 1px;
+    padding: 16px;
+    color: black;
+}
+
+/* .grid container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+} */
+
+.grid-item {
+   text-align: center;
+}
+
+a {
+    text-emphasis-position: right;
+    text-decoration: none;
+    color: #1f331d
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+    row-gap: 20px;
+
+}
+
+.recipe-item {
+    text-align: center;
+    color: #abac7f;
+    background-color: #e8f1e7;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #deebdd;
+}
